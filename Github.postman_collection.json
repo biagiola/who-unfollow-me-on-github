@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "e0fce9f8-6d90-4b99-853e-c08e1e95f379",
+		"name": "Github",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "followers",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/vnd.github.v3+json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.github.com/users/biagiola/followers?page=1&per_page=100",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"biagiola",
+						"followers"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "following",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/vnd.github.v3+json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.github.com/users/biagiola/following?page=1&per_page=100",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"biagiola",
+						"following"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
