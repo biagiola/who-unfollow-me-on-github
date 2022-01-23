@@ -15,31 +15,25 @@ following1.map(user => {
   followingNames.push([user.id, user.url])
   counter++
 })
-
 following2.map(user => {
   followingNames.push([user.id, user.url])
   counter++
 })
-
 following3.map(user => {
   followingNames.push([user.id, user.url])
   counter++
 })
 
 //console.log(followingNames)
-
 followers1.map(user => {
   followersNames.push([user.id, user.url])
   counter2++
 })
-
 followers2.map(user => {
   followersNames.push([user.id, user.url])
   counter2++
 })
 
-/*console.log(followersNames)
-console.log(counter2)*/
 
 let banned = []
 let c1 = 0
@@ -52,8 +46,8 @@ for (let x = 0; x < followingNames.length; x++) {
       c1++
     }    
   }
-  console.log('c1++', c1)
-  if(c1 === 0) {
+  
+  if(c1 == 0) {
     banned.push(followingNames[x])
   }
   c1 = 0
@@ -61,4 +55,6 @@ for (let x = 0; x < followingNames.length; x++) {
 
 console.log('followingNames', followingNames.length)
 console.log('followersNames', followersNames.length)
-console.log('banned', banned)
+console.log('banneds', banned.length)
+console.log('They are...', banned)
+
