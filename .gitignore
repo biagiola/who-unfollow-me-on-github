@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Generated data files
+current_followers.json
+current_following.json
+not_following_back.json
+you_dont_follow_back.json
+unfollowed_users.json
+failed_unfollows.json
+
+# Legacy files (optional - you can delete these manually)
+followers1-100.json
+followers2-100.json
+following1-100.json
+following2-100.json
+following3-100.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log 
