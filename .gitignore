@@ -18,6 +18,12 @@ not_following_back.json
 you_dont_follow_back.json
 unfollowed_users.json
 failed_unfollows.json
+followed_users.json
+failed_follows.json
+
+# Unfollower tracking files
+unfollower_ignore_list.json
+unfollower_history.json
 
 # Legacy files (optional - you can delete these manually)
 followers1-100.json

@@ -1,6 +1,6 @@
 {
   "name": "github-unfollow-tracker",
-  "version": "2.1.0",
+  "version": "2.3.0",
   "description": "Track who doesn't follow you back on GitHub",
   "main": "index.js",
   "scripts": {
